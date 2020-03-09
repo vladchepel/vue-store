@@ -1,5 +1,7 @@
 # vue-store
 
+Demo: https://vladchepel.github.io/vue-store/
+
 ## Project setup
 ```
 npm install
