@@ -91,6 +91,8 @@ export default {
   }
 
   &__icon {
+    display: flex;
+    align-items: center;
     position: absolute;
     top: 50%;
     right: 20px;
