@@ -1,7 +1,7 @@
 <template>
   <div v-if="cart.length > 0" v-click-outside="clickOutside" class="cart">
     <div v-for="(item, i) in cart" :key="item.id" class="cart__item">
-      <img :src="`/img/${item.image}`" class="cart__img">
+      <img :src="`${publicPath}img/${item.image}`" class="cart__img">
       <div class="cart__item-content">
         <div class="cart__name">{{ item.name }}</div>
         <div class="cart__price">${{ item.price }}</div>
@@ -37,6 +37,9 @@ export default {
       const result = this.cart.reduce((sum, current) => current.price * current.quantity + sum, 0);
       return result ? result : 0;
     },
+    publicPath() {
+      return process.env.BASE_URL;
+    }
   },
   methods: {
     clickOutside() {

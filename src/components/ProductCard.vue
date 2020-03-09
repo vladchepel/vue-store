@@ -21,7 +21,7 @@ export default {
   },
   computed: {
     imagePath() {
-      return `/img/${this.product.image}`;
+      return `${process.env.BASE_URL}img/${this.product.image}`;
     },
   },
 };

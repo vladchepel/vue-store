@@ -18,7 +18,7 @@
         class="search__result-item"
         @click="handleClick(item.id)"
       >
-        <img :src="`/img/${item.image}`" class="search__img">
+        <img :src="`${publicPath}img/${item.image}`" class="search__img">
         <div class="search__name">{{ item.name }}</div>
       </div>
     </div>
@@ -44,6 +44,9 @@ export default {
     ...mapState(['products']),
     dropdownVisible() {
       return this.foundItems.length > 0 && this.isActive;
+    },
+    publicPath() {
+      return process.env.BASE_URL;
     }
   },
   methods: {

@@ -47,7 +47,7 @@ export default {
       return this.products.find(product => product.id === Number(this.$route.params.id));
     },
     imagePath() {
-      return `/img/${this.product.image}`;
+      return `${process.env.BASE_URL}img/${this.product.image}`;
     },
     btnDisabled() {
       return !!this.cart.find(item => this.product.id === item.id);
