@@ -44,7 +44,7 @@ export default {
   async created() {
     let request;
     try {
-      request = await axios.get('/products.json');
+      request = await axios.get('https://gist.githubusercontent.com/vladchepel/62ad8d4276c74bc17f3213f3a203bf6d/raw/ba312de1ea8a2d8d59c449a304dec7fdd44f8a82/products.json');
       const products = request.data;
       this.setProducts(products);
       const brands = products.map(product => product.brand);
