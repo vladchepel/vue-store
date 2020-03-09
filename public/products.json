@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Samsung Galaxy S10",
+    "brand": "Samsung",
+    "rating": 3.5,
+    "price": 899,
+    "image": "galaxy-s10.jpg",
+    "specs": {
+      "display": "6.1 3040x1440",
+      "processor": "Qualcomm Snapdragon 855",
+      "camera": "48MP, 12MP, 5MP, 5MP",
+      "selfie camera": "10MP",
+      "storage": "128GB",
+      "RAM": "8Gb"
+    }
+  },
+  {
+    "id": 2,
+    "name": "iPhone 11",
+    "brand": "Apple",
+    "rating": 4,
+    "price": 699,
+    "image": "iphone-11.jpg",
+    "specs": {
+      "display": "6.1 1792x828",
+      "processor": "A13 Bionic",
+      "camera": "12MP 12MP",
+      "selfie": "12MP",
+      "storage": "64GB",
+      "RAM": "4GB"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Xiaomi Mi 10",
+    "brand": "Xiaomi",
+    "rating": 4,
+    "price": 499,
+    "image": "xiaomi-mi10.jpg",
+    "specs": {
+      "display": "6.47 2340x1080",
+      "processor": "Qualcomm Snapdragon 865",
+      "camera": "108MP 13MP 2MP 2MP",
+      "selfie camera": "20MP",
+      "storage": "128GB",
+      "RAM": "8GB"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Huawei p30",
+    "brand": "Huawei",
+    "rating": 4.5,
+    "price": 499,
+    "image": "huawei-p30.jpg",
+    "specs": {
+      "display": "6.1 2340×1080",
+      "processor": "Kirin 980",
+      "camera": "40MP 16MP 10MP",
+      "selfie camera": "32MP",
+      "storage": "64GB",
+      "RAM": "6GB"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Honor View 20",
+    "brand": "Honor",
+    "rating": 4.3,
+    "price": 399,
+    "image": "honor-view20.jpg",
+    "specs": {
+      "display": "6.4 2340x1080",
+      "processor": "Kirin 980",
+      "camera": "48MP 5MP",
+      "selfie camera": "25MP",
+      "storage": "128GB",
+      "RAM": "6GB"
+    }
+  }
+]
